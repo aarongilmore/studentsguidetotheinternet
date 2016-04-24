@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Learn Your Craft"
-date:   2015-08-16 19:48:10
-author: Aaron Gilmore
-categories: jekyll update
----
-
-Test

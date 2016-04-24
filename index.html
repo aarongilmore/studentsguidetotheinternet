@@ -1,90 +1,144 @@
----
-layout: default
-title: Student's Guide to the Internet
----
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student's Guide to the Internet</title>
+  <link rel="stylesheet" href="/assets/css/style.min.css">
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800|Merriweather' rel='stylesheet' type='text/css'>
+</head>
 
-			<p class="intro">An exploration of the following topics, for students of Design.</p>
+<body>
 
-      {% for post in site.posts %}
-      <ul>
-      <li>
-        <a href="{{ post.url }}"><p>{{ post.title }}</p></a>
-        <span>{{ post.author }}</span>
-      </li>
-      </ul>
-      {% endfor %}
+  <header class="main-header typeset">
 
-      <!-- <div class="col width-1/2 list">
-        <ul>
-          <li>
-            <p><a href="introduction.html">Introduction</a></p>
-            <span>By Aaron Gilmore</span>
-          </li>
-          <li>
-            <p>Learning Your Craft</p>
-            <span>1 September 2015</span>
-          </li>
-          <li>
-            <p>How to Work</p>
-            <span>14 September 2015</span>
-          </li>
-          <li>
-            <p>Compassion</p>
-            <span>12 October 2015</span>
-          </li>
-          <li>
-            <p>Asking Questions</p>
-            <span>26 October 2015</span>
-          </li>
+  <svg width="249px" height="642px" viewBox="24 14 249 642" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+      <desc>Created with Sketch.</desc>
+      <defs></defs>
+      <g id="Stars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(24.000000, 14.000000)" fill-opacity="0.400000006">
+          <circle id="Oval-1" fill="#FFFFFF" cx="1" cy="338" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="81" cy="378" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="81" cy="458" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="201" cy="458" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="1" cy="108" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="81" cy="148" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="81" cy="228" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="201" cy="228" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="8" cy="521" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="88" cy="561" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="88" cy="641" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="208" cy="641" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="128" cy="1" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="128" cy="81" r="1"></circle>
+          <circle id="Oval-1" fill="#FFFFFF" cx="248" cy="81" r="1"></circle>
+      </g>
+  </svg>
+
+
+    <div class="main-header__content section typeset">
+      <div class="column">
+        <h1 class="alpha">Student's Guide to the Internet</h1>
+        <p>A collection of resources for students of design.</p>
+        <ul class="social">
+          <li><a href="https://twitter.com/share"><img src="assets/img/twitter.svg" alt=""></a></li>
+          <li><a href="http://www.facebook.com/sharer.php"><img src="assets/img/facebook.svg" alt=""></a></li>
+          <li><a href="mailto:?Subject=Check%20out%20these%20resources!"><img src="assets/img/email.svg" alt=""></a></li>
+        </ul>
+      </div>
+    </div>
+
+  </header>
+
+  <section id="baseline">
+    <div class="section typeset">
+      <div class="column column--main column--left">
+        <h3>About This Site</h3>
+        <p>This website serves as a repository of information for students of design. It is, of course, not limited to students and my hope is everyone can find something useful here—whether it be drawing inspiration from another designer, or learning something new through reading.</p>
+      </div>
+
+    </div>
+
+    <div class="section typeset">
+      <div class="column">
+        <h3>Articles</h3>
+      </div>
+      <div class="column column--quad">
+        <h6>Design</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">The Shape of Design</a><br /><small>&mdash; Frank Chimero, 2014</small></p></li>
+          <li><p><a href="#">What Is a Designer?</a><br /><small>&mdash; Mike Monterio, 2015</small></p></li>
+          <li><p><a href="#">The Dribbbleisation of Design</a><br /><small>&mdash; Intercom, 2014</small></p></li>
+          <li><p><a href="#">We Are What We Build</a><br /><small>&mdash; Eric Meyer, 2016</small></p></li>
         </ul>
       </div>
 
-      <div class="col width-1/2 list">
-        <ul>
-          <li>
-            <p>Reading List</p>
-            <span>9 November 2015</span>
-          </li>
-          <li>
-            <p>Failure</p>
-            <span>23 November 2015</span>
-          </li>
-          <li>
-            <p>Starting Conversation</p>
-            <span>7 December 2015</span>
-          </li>
-          <li>
-            <p>Money</p>
-            <span>21 December 2015</span>
-          </li>
-          <li>
-            <p>Community</p>
-            <span>27 December 2015</span>
-          </li>
+      <div class="column column--quad">
+        <h6>Programming</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">What Is Code?</a><br /><small>&mdash; Paul Ford, 2015</small></p></li>
+          <li><p><a href="#">Get Started With Git</a><br /><small>&mdash; Al Shaw, 2010</small></p></li>
         </ul>
-      </div> -->
+      </div>
 
-			<h2>Stay Updated</h2>
-			<p>Leave your <strong>name</strong> and <strong>email</strong> below and we'll contact you when we have something more to share.</p>
-			<form action="" name="mc-embedded-subscribe-form" method="post" target="_blank">
-			  <div class="cols">
-			    <div class="col width-1/2">
-			      <label for="member_name">Name</label>
-			      <input type="text" id="member_name" name="NAME" placeholder="Arthur Dent" required />
-			    </div>
-			    <div class="col width-1/2">
-			      <label for="member_email">Email</label>
-			      <input type="email" id="member_email" name="EMAIL" placeholder="arthur@galacticmail.com" required />
-			    </div>
-			  </div>
-			  <p class="form-actions">
-			    <input class="form-hidden" type="text" name="" tabindex="-1" value="" />
-			    <button type="submit" name="subscribe">Submit</button>
-			  </p>
-			</form>
+      <div class="column column--quad">
+        <h6>Work &amp; Life</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">The Crossroads of Should and Must</a><br /><small>&mdash; Elle Luna, 2014</small></p></li>
+        </ul>
+      </div>
 
-<!-- Google Analytics -->
-<script>
+      <div class="column column--quad">
+        <h6>Other</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">Messages to the Future</a><br /><small>&mdash; Heather Ryan, 2016</small></p></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section typeset">
+      <div class="column">
+        <h3>Books</h3>
+      </div>
+      <div class="column column--quad">
+        <h6>Design</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">Design as Art</a><br /><small>&mdash; Bruno Munari, 1971</small></p></li>
+          <li><p><a href="#">Less and More: The Design Ethos of Dieter Rams</a><br /><small>&mdash; Klaus Klemp, 2011</small></p></li>
+        </ul>
+      </div>
+
+      <div class="column column--quad">
+        <h6>Typography</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">The New Typography</a><br /><small>&mdash; Jan Tschichold, 1928</small></p></li>
+          <li><p><a href="#">The Elements of Typographic Style</a><br /><small>&mdash; Robert Bringhurst, 1992</small></p></li>
+          <li><p><a href="#">Stop Stealing Sheep &amp; Find Out How Type Works</a><br /><small>&mdash; Erik Spiekermann and E.M Ginger, 2003</small></p></li>
+        </ul>
+      </div>
+
+      <div class="column column--quad">
+        <h6>Business &amp; Work</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">The Crossroads of Should and Must</a><br /><small>&mdash; Elle Luna, 2014</small></p></li>
+        </ul>
+      </div>
+
+      <div class="column column--quad">
+        <h6>Other</h6>
+        <ul class="unstyled">
+          <li><p><a href="#">Messages to the Future</a><br /><small>&mdash; Heather Ryan, 2016</small></p></li>
+        </ul>
+      </div>
+    </div>
 
 
-</script>
+  </section>
+
+  <footer class="global-footer">
+    <p>Made by <a href="#">Aaron Gilmore</a> in Berlin. Available on <a href="#">GitHub</a>.</p>
+  </footer>
+
+</body>
+</html>
