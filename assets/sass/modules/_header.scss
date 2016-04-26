@@ -2,9 +2,9 @@
 // ---------------------------------------
 
 .main-header {
-  min-height: 600px;
-  // background-color: $headerColour;
+  padding: 4em 0em;
   background: linear-gradient(to top right, $headerColourDark,$headerColourLight);
+  margin-bottom: 3rem;
 
   svg {
     float: left;
@@ -13,7 +13,6 @@
   }
 
   .main-header__content {
-    padding-top: 10rem;
     color: $white;
   }
 

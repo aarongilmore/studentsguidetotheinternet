@@ -493,7 +493,7 @@ a {
     margin-left: -1rem; } }
 
 .typeset hr {
-  background-image: linear-gradient(to bottom, transparent 50%, #BDC8CC 50%);
+  background-image: linear-gradient(to bottom, #eee 50%, #BDC8CC 50%);
   background-position: 0 50%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
@@ -814,14 +814,14 @@ ul.unstyled span {
       padding-top: 0.6179rem; } }
 
 .main-header {
-  min-height: 600px;
-  background: linear-gradient(to top right, #0f4d74, #27a3d9); }
+  padding: 4em 0em;
+  background: linear-gradient(to top right, #0f4d74, #27a3d9);
+  margin-bottom: 3rem; }
   .main-header svg {
     float: left;
     z-index: 1;
     position: absolute; }
   .main-header .main-header__content {
-    padding-top: 10rem;
     color: #FFFFFF; }
   .main-header .main-header__content h1, .main-header .main-header__content h6 {
     color: #FFFFFF !important; }
