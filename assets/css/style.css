@@ -578,9 +578,9 @@ a {
   .column--trio {
     width: 33.333%; }
     .column--trio:nth-of-type(3n+4) {
-      clear: left; }
+      /*clear: left;*/ }
     .column--trio:nth-of-type(n+4) {
-      margin-top: 3rem; } }
+      /*margin-top: 3rem;*/ } }
 
 @media screen and (min-width: 40em) {
   .column--quad {
@@ -812,10 +812,6 @@ ul.unstyled span {
     ul.unstyled span {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
-
-.main-header__content h1 {
-  -webkit-animation: fadeInFromRight 600ms;
-  animation: fadeInFromRight 600ms; }
 
 .main-header {
   padding: 4em 0em;
