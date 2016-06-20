@@ -43,3 +43,9 @@ ul.unstyled {
 ul.unstyled span {
   @include baseline(zeta, $headingtype, 2, 2, all);
 }
+
+.main-header__content h1 {
+  -webkit-animation: fadeInFromRight 600ms;
+  -o-animation: fadeInFromRight 600ms;
+  animation: fadeInFromRight 600ms;
+}

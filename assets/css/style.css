@@ -55,7 +55,7 @@ html {
 
 body {
   font-size: 1.33333rem;
-  font-family: Merriweather, Georgia, serif;
+  font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem; }
@@ -103,8 +103,8 @@ a {
       padding-top: 0.6179rem; } }
 
 .typeset h1, .typeset h2, .typeset h3, .typeset h4, .typeset h5, .typeset h6 {
-  color: #1D282F;
-  font-family: Open Sans, sans-serif;
+  color: #2f404c;
+  font-family: freight-sans-pro, sans-serif;
   font-feature-settings: 'dlig', 'liga', 'lnum', 'kern';
   font-style: normal;
   font-weight: 700; }
@@ -358,7 +358,7 @@ a {
   font-size: 1.19167rem;
   margin-bottom: -0.60676rem;
   padding-top: 0.60676rem;
-  font-family: Open Sans, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
   font-feature-settings: 'liga', 'lnum', 'tnum', 'kern';
   font-style: normal;
   font-weight: 400;
@@ -418,7 +418,7 @@ a {
 
 .typeset small, .typeset .caption {
   font-size: 1.06667rem;
-  font-family: Open Sans, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 400; }
   @media screen and (min-width: 40em) {
@@ -813,9 +813,13 @@ ul.unstyled span {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
 
+.main-header__content h1 {
+  -webkit-animation: fadeInFromRight 600ms;
+  animation: fadeInFromRight 600ms; }
+
 .main-header {
   padding: 4em 0em;
-  background: linear-gradient(to top right, #0f4d74, #27a3d9);
+  background: linear-gradient(to top right, #0c3e5d, #2ec0ff);
   margin-bottom: 3rem; }
   .main-header svg {
     float: left;
@@ -824,7 +828,9 @@ ul.unstyled span {
   .main-header .main-header__content {
     color: #FFFFFF; }
   .main-header .main-header__content h1, .main-header .main-header__content h6 {
-    color: #FFFFFF !important; }
+    color: #FFFFFF !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    -webkit-font-smoothing: antialiased; }
   .main-header ul.social {
     margin-top: 1rem;
     list-style: none; }
@@ -835,7 +841,7 @@ ul.unstyled span {
 .global-footer p {
   font-size: 1.19167rem;
   color: #BDC8CC;
-  font-family: Open Sans, sans-serif;
+  font-family: freight-sans-pro, sans-serif;
   font-style: normal;
   font-weight: 400;
   padding: 1rem 0;
