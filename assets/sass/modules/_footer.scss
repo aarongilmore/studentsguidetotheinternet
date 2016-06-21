@@ -10,7 +10,7 @@
     font-family: unquote(map-get($headingtype, font-family));
     font-style: normal;
     font-weight: map-get($headingtype, regular);
-    padding: 1rem 0;
+    padding: 1.5rem;
     margin: 0;
     text-align: center;
   }
