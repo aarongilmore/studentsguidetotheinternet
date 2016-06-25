@@ -44,3 +44,30 @@ ul.unstyled span {
   @include baseline(zeta, $headingtype, 2, 2, all);
 }
 
+.section a {
+     /*white-space: nowrap;*/
+}
+
+.section a:after {
+    content: ' \2192';
+    display: inline;
+}
+
+p.caption a {
+  color: $bodyColour;
+  text-decoration: underline;
+}
+
+p.caption a:after {
+  content: '';
+}
+
+.column--trio p {
+  margin-bottom: -.6179rem;
+}
+
+i.fa {
+  font-style: normal;
+  margin-right: 5px;
+}
+

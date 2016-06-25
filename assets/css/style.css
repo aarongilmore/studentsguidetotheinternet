@@ -269,7 +269,7 @@ a {
   content: "";
   display: block;
   width: 1.5em;
-  height: .15em;
+  height: .11em;
   margin-bottom: .75em;
   background: #2f404c; }
 
@@ -449,7 +449,7 @@ a {
   line-height: 2rem;
   margin-bottom: 1.35199rem;
   padding-top: 0.64801rem;
-  color: #BDC8CC; }
+  color: #8D959B; }
   @media screen and (min-width: 40em) {
     .typeset .caption {
       margin-bottom: 1.32056rem;
@@ -501,7 +501,7 @@ a {
     margin-left: -1rem; } }
 
 .typeset hr {
-  background-image: linear-gradient(to bottom, #eee 50%, #BDC8CC 50%);
+  background-image: linear-gradient(to bottom, #eee 50%, #8D959B 50%);
   background-position: 0 50%;
   background-repeat: repeat-x;
   background-size: 100% 0.15rem;
@@ -821,6 +821,27 @@ ul.unstyled span {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
 
+.section a {
+  /*white-space: nowrap;*/ }
+
+.section a:after {
+  content: ' \2192';
+  display: inline; }
+
+p.caption a {
+  color: #8D959B;
+  text-decoration: underline; }
+
+p.caption a:after {
+  content: ''; }
+
+.column--trio p {
+  margin-bottom: -.6179rem; }
+
+i.fa {
+  font-style: normal;
+  margin-right: 5px; }
+
 .main-header {
   padding: 3em 0em 4.2em 0em;
   background: linear-gradient(to top right, #0c3e5d, #2ec0ff);
@@ -831,10 +852,22 @@ ul.unstyled span {
     position: absolute; }
   .main-header .main-header__content {
     color: #FFFFFF; }
-  .main-header .main-header__content h1, .main-header .main-header__content h6 {
+  .main-header .main-header__content h1, .main-header .main-header__content h2 {
     color: #FFFFFF !important;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     -webkit-font-smoothing: antialiased; }
+  .main-header ul.social {
+    margin-top: 35px; }
+  .main-header ul.social li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px; }
+  .main-header ul.social li a {
+    color: white; }
+  .main-header ul.social li a:after {
+    content: ''; }
+  .main-header a {
+    font-size: 0.9rem; }
 
 .global-footer {
   background-color: #f8f8f8;

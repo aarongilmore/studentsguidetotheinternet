@@ -16,11 +16,33 @@
     color: $white;
   }
 
-  .main-header__content h1, .main-header__content h6 {
+  .main-header__content h1, .main-header__content h2 {
     color: $white!important;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .2);
     -webkit-font-smoothing: antialiased;
 
+  }
+
+  ul.social {
+    margin-top: 35px;
+  }
+
+  ul.social li {
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+  }
+
+  ul.social li a {
+    color: white;
+  }
+
+  ul.social li a:after {
+    content: '';
+  }
+
+  a {
+    font-size: 0.9rem;
   }
 
 }
