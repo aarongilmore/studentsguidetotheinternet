@@ -71,3 +71,18 @@ i.fa {
   margin-right: 5px;
 }
 
+ul.social {
+  margin-top: 35px;
+  text-align: center;
+}
+
+ul.social li {
+  list-style: none;
+  display: inline;
+  margin: 0px 10px;
+}
+
+ul.social li a:after {
+  content: '';
+}
+

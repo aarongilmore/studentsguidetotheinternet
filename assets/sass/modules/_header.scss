@@ -23,31 +23,4 @@
 
   }
 
-  ul.social {
-    margin-top: 35px;
-  }
-
-  ul.social li {
-    list-style: none;
-    display: inline;
-    margin-right: 15px;
-  }
-
-  ul.social li a {
-    color: white;
-  }
-
-  ul.social li a:after {
-    content: '';
-  }
-
-  a {
-    @include breakpoint(break-1) {
-      font-size: 0.9rem;
-    }
-    @include breakpoint(break-4) {
-      font-size: 1.2rem;
-    }
-  }
-
 }

@@ -842,6 +842,18 @@ i.fa {
   font-style: normal;
   margin-right: 5px; }
 
+ul.social {
+  margin-top: 35px;
+  text-align: center; }
+
+ul.social li {
+  list-style: none;
+  display: inline;
+  margin: 0px 10px; }
+
+ul.social li a:after {
+  content: ''; }
+
 .main-header {
   padding: 3em 0em 4.2em 0em;
   background: linear-gradient(to top right, #0c3e5d, #2ec0ff);
@@ -856,22 +868,6 @@ i.fa {
     color: #FFFFFF !important;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     -webkit-font-smoothing: antialiased; }
-  .main-header ul.social {
-    margin-top: 35px; }
-  .main-header ul.social li {
-    list-style: none;
-    display: inline;
-    margin-right: 15px; }
-  .main-header ul.social li a {
-    color: white; }
-  .main-header ul.social li a:after {
-    content: ''; }
-  @media screen and (min-width: 40em) {
-    .main-header a {
-      font-size: 0.9rem; } }
-  @media screen and (min-width: 100em) {
-    .main-header a {
-      font-size: 1.2rem; } }
 
 .global-footer {
   background-color: #f8f8f8;
