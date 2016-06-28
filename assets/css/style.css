@@ -866,8 +866,12 @@ i.fa {
     color: white; }
   .main-header ul.social li a:after {
     content: ''; }
-  .main-header a {
-    font-size: 0.9rem; }
+  @media screen and (min-width: 40em) {
+    .main-header a {
+      font-size: 0.9rem; } }
+  @media screen and (min-width: 100em) {
+    .main-header a {
+      font-size: 1.2rem; } }
 
 .global-footer {
   background-color: #f8f8f8;
