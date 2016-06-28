@@ -271,7 +271,7 @@ a {
   width: 1.5em;
   height: .11em;
   margin-bottom: .75em;
-  background: #2f404c; }
+  background: #8D959B; }
 
 .typeset ul, .typeset ol {
   line-height: 2rem;
@@ -821,12 +821,9 @@ ul.unstyled span {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
 
-.section a {
-  /*white-space: nowrap;*/ }
-
 .section a:after {
-  content: ' \2192';
-  display: inline; }
+  /*content: ' \2192';
+    display: inline;*/ }
 
 p.caption a {
   color: #8D959B;
@@ -865,7 +862,7 @@ ul.social li a:after {
   .main-header .main-header__content {
     color: #FFFFFF; }
   .main-header .main-header__content h1, .main-header .main-header__content h2 {
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
     -webkit-font-smoothing: antialiased; }
 
