@@ -80,14 +80,14 @@ a {
     @include sassline(zeta, $headingtype, 2, 0, all);
   }
 
-  h3:before {
-    content: "";
-    display: block;
-    width: 1.5em;
-    height: .11em;
-    margin-bottom: .75em;
-    background: $bodyColour;
-  }
+  // h3:before {
+  //   content: "";
+  //   display: block;
+  //   width: 1.5em;
+  //   height: .11em;
+  //   margin-bottom: .75em;
+  //   background: $bodyColour;
+  // }
 
   // Lists.
   ul, ol {

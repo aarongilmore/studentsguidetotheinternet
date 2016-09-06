@@ -265,14 +265,6 @@ a {
       margin-bottom: -0.6179rem;
       padding-top: 0.6179rem; } }
 
-.typeset h3:before {
-  content: "";
-  display: block;
-  width: 1.5em;
-  height: .11em;
-  margin-bottom: .75em;
-  background: #8D959B; }
-
 .typeset ul, .typeset ol {
   line-height: 2rem;
   margin-bottom: 1.43999rem;
