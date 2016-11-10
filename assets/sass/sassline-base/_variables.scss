@@ -56,7 +56,7 @@ $gutterwidths: (
 // Add weight and style details too.
 // ! Set cap height to set to the baseline.
 $bodytype: (
-  font-family: 'freight-sans-pro, sans-serif',
+  font-family: 'Open Sans, sans-serif',
   regular: 400,
   bold: 700,
   italic: italic,
@@ -64,7 +64,7 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: 'freight-sans-pro, sans-serif',
+  font-family: 'Open Sans, sans-serif',
   regular: 400,
   bold: 700,
   cap-height: 0.66
@@ -79,10 +79,10 @@ $headingtype: (
 
 // Text colours. British English.
 $headingColour: #2f404c !default;
-$bodyColour: #8D959B !default;
-$linkColour: #186F9C !default;
-$hoverColour: #10587E !default;
-$captionColour: #8D959B !default;
+$bodyColour: #747575 !default;
+$linkColour: #4A5FF0   !default;
+$hoverColour: #2F40BB !default;
+$captionColour: #9B9B9B !default;
 $white: #FFFFFF !default;
 
 // Background colours.

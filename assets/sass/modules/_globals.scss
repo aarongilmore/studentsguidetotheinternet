@@ -45,8 +45,18 @@ ul.unstyled span {
 }
 
 .section a:after {
-    /*content: ' \2192';
-    display: inline;*/
+    content: ' \2192';
+    display: inline;
+    opacity: 0;
+  }
+
+.section a:hover:after {
+    content: ' \2192';
+    display: inline;
+    opacity: 1;
+    transition: opacity .5s ease-in-out;
+   -moz-transition: opacity .5s ease-in-out;
+   -webkit-transition: opacity .5s ease-in-out;
 }
 
 p.caption a {
@@ -78,7 +88,6 @@ ul.social li {
   margin: 0px 10px;
 }
 
-ul.social li a:after {
-  content: '';
+a.decoration-none:after,a.decoration-none:hover:after {
+  content: none;
 }
-

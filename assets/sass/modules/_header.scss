@@ -3,7 +3,9 @@
 
 .main-header {
   padding: 3em 0em 4.2em 0em;
-  background: linear-gradient(to top right, $headerColourDark,$headerColourLight);
+  background: linear-gradient(rgba(56, 88, 249, 0.9),rgba(56, 88, 249, 0.9)), url("../img/header-bg.jpg");
+  background-size: cover;
+
   margin-bottom: 3rem;
 
   svg {
