@@ -44,6 +44,10 @@ ul.unstyled span {
   @include baseline(zeta, $headingtype, 2, 2, all);
 }
 
+.section a {
+  white-space: nowrap;
+}
+
 .section a:after {
     content: ' \2192';
     display: inline;

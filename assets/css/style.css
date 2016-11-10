@@ -813,6 +813,9 @@ ul.unstyled span {
       margin-bottom: 1.3821rem;
       padding-top: 0.6179rem; } }
 
+.section a {
+  white-space: nowrap; }
+
 .section a:after {
   content: ' \2192';
   display: inline;
