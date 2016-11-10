@@ -44,28 +44,6 @@ ul.unstyled span {
   @include baseline(zeta, $headingtype, 2, 2, all);
 }
 
-.section p {
-  @include breakpoint(break-0) {
-    max-width: 22em;
-  }
-}
-
-.section p {
-  @include breakpoint(break-1) {
-    max-width: 40em;
-  }
-}
-
-
-.section a:hover:after {
-    content: ' \2192';
-    display: inline;
-    opacity: 1;
-    transition: opacity .5s ease-in-out;
-   -moz-transition: opacity .5s ease-in-out;
-   -webkit-transition: opacity .5s ease-in-out;
-}
-
 p.caption a {
   color: $bodyColour;
   text-decoration: underline;
