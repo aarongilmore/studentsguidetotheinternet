@@ -44,15 +44,18 @@ ul.unstyled span {
   @include baseline(zeta, $headingtype, 2, 2, all);
 }
 
-.section a {
-  white-space: nowrap;
+.section p {
+  @include breakpoint(break-0) {
+    max-width: 22em;
+  }
 }
 
-.section a:after {
-    content: ' \2192';
-    display: inline;
-    opacity: 0;
+.section p {
+  @include breakpoint(break-1) {
+    max-width: 40em;
   }
+}
+
 
 .section a:hover:after {
     content: ' \2192';
