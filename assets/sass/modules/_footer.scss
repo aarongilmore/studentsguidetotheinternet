@@ -21,6 +21,10 @@
   text-align: left;
 }
 
+#mc_embed_signup input.email {
+  width: 300px;
+}
+
 #mc_embed_signup .button {
   background-color: $linkColour;
   -webkit-appearance: none;

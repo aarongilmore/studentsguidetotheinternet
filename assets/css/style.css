@@ -884,7 +884,10 @@ a.decoration-none:after, a.decoration-none:hover:after {
     margin-top: 20px; }
   .global-footer #mc_embed_signup form {
     text-align: left; }
+  .global-footer #mc_embed_signup input.email {
+    width: 300px; }
   .global-footer #mc_embed_signup .button {
-    background-color: #4A5FF0; }
+    background-color: #4A5FF0;
+    -webkit-appearance: none; }
   .global-footer #mc_embed_signup .button:hover {
     background-color: #2F40BB; }
