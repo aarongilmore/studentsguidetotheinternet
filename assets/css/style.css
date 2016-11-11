@@ -858,13 +858,19 @@ a.decoration-none:after, a.decoration-none:hover:after {
 .global-footer {
   background-color: #f8f8f8;
   border-top: 1px solid #eee; }
+  @media screen and (min-width: 0em) {
+    .global-footer .column--duo {
+      padding: 1.6em 0em; }
+    .global-footer #mc_embed_signup input.email {
+      width: 100%; } }
   .global-footer p {
     font-size: 1.19167rem;
     color: #9e9e9e;
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
-    margin: 0; }
+    margin: 0;
+    text-align: center; }
     @media screen and (min-width: 40em) {
       .global-footer p {
         font-size: 1.09286rem; } }
@@ -884,8 +890,6 @@ a.decoration-none:after, a.decoration-none:hover:after {
     margin-top: 20px; }
   .global-footer #mc_embed_signup form {
     text-align: left; }
-  .global-footer #mc_embed_signup input.email {
-    width: 300px; }
   .global-footer #mc_embed_signup .button {
     background-color: #4A5FF0;
     -webkit-appearance: none; }
