@@ -864,9 +864,7 @@ a.decoration-none:after, a.decoration-none:hover:after {
     font-family: Open Sans, sans-serif;
     font-style: normal;
     font-weight: 400;
-    padding: 1.5rem;
-    margin: 0;
-    text-align: center; }
+    margin: 0; }
     @media screen and (min-width: 40em) {
       .global-footer p {
         font-size: 1.09286rem; } }
@@ -879,3 +877,14 @@ a.decoration-none:after, a.decoration-none:hover:after {
     @media screen and (min-width: 100em) {
       .global-footer p {
         font-size: 0.92632rem; } }
+  .global-footer #mc_embed_signup {
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    width: 100%;
+    margin-top: 20px; }
+  .global-footer #mc_embed_signup form {
+    text-align: left; }
+  .global-footer #mc_embed_signup .button {
+    background-color: #4A5FF0; }
+  .global-footer #mc_embed_signup .button:hover {
+    background-color: #2F40BB; }

@@ -10,11 +10,23 @@
     font-family: unquote(map-get($headingtype, font-family));
     font-style: normal;
     font-weight: map-get($headingtype, regular);
-    padding: 1.5rem;
     margin: 0;
-    text-align: center;
   }
 
   background-color: #f8f8f8;
   border-top: 1px solid #eee;
+
+#mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;margin-top: 20px;}
+#mc_embed_signup form {
+  text-align: left;
+}
+
+#mc_embed_signup .button {
+  background-color: $linkColour;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: $hoverColour;
+}
+
 }
